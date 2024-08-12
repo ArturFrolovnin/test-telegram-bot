@@ -18,7 +18,6 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
       <ComponentTest />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -26,7 +25,7 @@ function App() {
         </button>
         <button
           onClick={() =>
-            WebApp.showAlert(`Hello World! Current count is ${count}`)
+            WebApp.showAlert(`столько раз нажали на кнопку  ${count}`)
           }
         >
           Show Alert

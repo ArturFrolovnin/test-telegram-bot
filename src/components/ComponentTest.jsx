@@ -1,7 +1,7 @@
 function testComponent() {
   return (
     <>
-      <h1> test component</h1>
+      <h1> нажми на кнопку</h1>
     </>
   );
 }
