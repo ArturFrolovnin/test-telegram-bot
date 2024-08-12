@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import ComponentTest from "./components/ComponentTest";
 import "./App.css";
+import WebApp from "@twa-dev/sdk";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,13 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+        </button>
+        <button
+          onClick={() =>
+            WebApp.showAlert(`Hello World! Current count is ${count}`)
+          }
+        >
+          Show Alert
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
