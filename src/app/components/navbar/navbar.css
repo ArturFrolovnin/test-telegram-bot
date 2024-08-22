@@ -1,0 +1,19 @@
+.container-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 48px;
+  background: #ffffff26;
+  border-radius: 10px;
+}
+.navbar-elemen-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-right: solid 1px #797979 !important;
+}
+.navbar-elemen-button:last-child {
+  border-right: none !important;
+}
